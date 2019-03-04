@@ -1,0 +1,203 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #0aacad;
+
+}
+.container{
+  width: 100%;
+  margin: 50px auto;
+  padding-left: 50px;
+}
+.col-3{
+  width:380px;
+  margin: auto;
+  float: left;
+  margin: 0 20px;
+}
+.img-holder img{
+  width: 100%;
+}
+.orange{
+  color: #ffa500;
+}
+.login_main h1{
+  color: antiquewhite;
+  font-family:'Segeo Ui','Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.login_main{
+  color: aliceblue;
+  font-family: Ubuntu, 'Open Sans', sans-serif;
+
+}
+.login_center{
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+/* styling for the right column containing login form */
+.col-form{
+  background-color:#f0f3f3;
+  height: 380px;
+  /* border-radius: 5px; */
+  width: 78%;
+  box-shadow: 2px 2px 3px 6px #eeeeee;
+  padding: 20px;
+  z-index: 1000;
+  color: orange
+
+}
+.col-form h3{
+  color: black;
+  text-transform: uppercase;
+  text-align: center
+}
+.col-form hr{
+  border: 0;
+  border-bottom: 1px dashed orangered;
+}
+input[type=email], input[type=password]{
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ffddff;
+  padding: 8px 20px;
+  box-sizing: border-box;
+}
+.btn{
+  border-radius: 4px;
+  padding: 7px 20px;
+  border: 1px solid;
+
+
+}
+.btn-orange{
+  color: white;
+  background-color: #e5a30e !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+}
+.login_center li{
+  list-style: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px 20px 20px 0px;
+}
+
+/* STYLING PRODUCTS.HTML */
+.cart-body,.products-body, .main{
+	    /* background-color: #f8f9fa; */
+	
+	    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	    font-size: 13px;
+      background-image: linear-gradient(#eff 1%,#eff 1%, #fff 100%);
+      height: 1000px !important;
+      margin: 0px !important;
+	}
+.title-section h1{
+	padding-left: 40px;}
+	.sub-title{
+	    padding-left: 40px;
+	}
+	.main .buttons li{
+	    display: inline-block;
+	    list-style: none;
+	}
+	.btn-blue{
+	    background-color: #0aacad;
+	    color: white;
+	}
+	.text-green{
+	    color: #28a745 !important
+	}
+	.btn-warn{
+	    background-color: #ffc107 !important;
+	}
+	.text-warn{
+	    color: #ffc107 !important;
+	}
+	.btn-red{
+	    background-color:  #dc3545 !important;
+	}
+	.text-red{
+	    color: #dc3545 !important;
+	
+	}
+	.tbl-products{
+	    margin: 0 40px;
+	}
+	.tbl-products table {
+	    width: 80%;
+	}
+	table tr:nth-child(even){
+	    background-color: #f6f6f6;
+	}
+	table tr{
+	    padding: 10px 0;
+	    height: 30px;
+	}
+	table thead{
+	    background: #0aacad;
+	    color: white;
+	    font-weight: bolder;
+  } 
+  
+  /* STYLE THE DASHBOARD */
+	.dash-tabs{
+	    margin-top: 100px;
+	    width: 100%;
+	    height: 400px;
+	}
+	.dash-tabs ul{
+	    margin: auto;
+	    display: block;
+	    width: 80%;
+	}
+	.dash-tabs ul li{
+	    text-align: center;
+	    display: inline-block;
+	    list-style: none;
+	    color: white;
+	    background-color: #00c0c0;
+	    border-radius: 5px;
+	    padding: 32px;
+	
+	    font-size: 16px;
+	    margin: 10px 20px;
+	}
+	.dash-tabs ul li i{
+	    width: 100%;
+	    text-align: center;
+	    font-size: 26px;
+	}
+	.dash-tabs ul li a{
+	    text-decoration: none;
+	    color: inherit;
+	    text-align: center;
+	}
+	.dash-tabs .title-section{
+	    display: block;
+	    width: 100%;
+	    margin: auto;
+	    text-align: center;
+	}
+	.dash-tabs ul li:nth-child(1n){
+	    margin-left: 70px;
+  }
+  
+  /* STYLING ADD PRODUCT */
+	.create-product{
+	    width: 60%
+	}
+	.create-product form{
+	    margin-right:  300px;
+	}
+	.frm-half{
+	    width: 48%;
+	    margin-right: 10px;
+	    float: left;
+	    margin-bottom: 30px
+	} 
