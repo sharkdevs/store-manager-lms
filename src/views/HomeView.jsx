@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LoginForm from '../components/LoginForm.jsx';
 
-class LandinView extends Component {
+class LandingView extends Component {
     render() {
         return (
             <LoginForm />
@@ -9,4 +9,4 @@ class LandinView extends Component {
     }
 }
 
-export default LandinView;
+export default LandingView;
